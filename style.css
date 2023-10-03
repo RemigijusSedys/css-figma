@@ -1,0 +1,83 @@
+*{
+    margin: 0;
+    padding: 0;
+    display: block;
+}
+
+/* ================================ */
+.fullcon{
+    background-color: aquamarine;
+    padding-top: 5rem;
+    padding-left: 9rem;
+}
+.header { 
+    width: 80rem;
+    background-color: yellow;
+    margin-bottom: 8rem;
+}
+
+.navbox {
+    width: 80rem;
+    display: flexbox;
+    background-color: lightcoral;
+    
+}
+
+.header ul{
+    background-color: red;
+    list-style: none;
+    text-align: center;
+    justify-content: space-between;
+    align-items: center;
+
+}
+nav li {
+    text-align: center;
+    display: inline-block;
+    justify-content: space-between;
+}
+.logo {
+    width: 30rem;
+    background-color: blue;
+    float: left;
+}
+.navbar {
+    background-color: orange;
+    width: 40rem;
+    float: right;
+}
+/* ============================================ */
+.main {
+    display: flexbox;
+    width: 80rem;
+    background-color: green;
+}
+
+.pastraipos {
+    height: 10rem;
+}
+
+.kaire {
+    float: left;
+    width: 20rem;
+}
+
+.desine {
+    width: 20rem;
+    float:right
+}
+.pastraipos-apacia {
+    height: 50rem;
+}
+
+.paveikslas {
+    
+    width: 20rem;
+    float: left;
+}
+
+.forma {
+    height: 40rem;
+    width: 40rem;
+    float: right;
+}
