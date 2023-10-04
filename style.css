@@ -1,83 +1,244 @@
 *{
     margin: 0;
     padding: 0;
-    display: block;
+    display: block
 }
+/* ===============FULL CONTAINER================= */
+.fullcon{ 
+    width: 70rem;
+    margin: 10px;
+    border: 1px solid black;
+    padding: 5rem;
 
-/* ================================ */
-.fullcon{
-    background-color: aquamarine;
-    padding-top: 5rem;
-    padding-left: 9rem;
+    margin-top: 5rem;
+    margin-left: 5rem;
 }
+/* ========== HEADER =========== */
 .header { 
-    width: 80rem;
-    background-color: yellow;
-    margin-bottom: 8rem;
+    width: 70rem;
+    margin-bottom: 10rem;
 }
-
 .navbox {
-    width: 80rem;
+    width: 70rem;
     display: flexbox;
     background-color: lightcoral;
     
 }
-
-.header ul{
-    background-color: red;
+.logo {
+    width: 20rem;
+    float: left;
+    display: flex;
+}
+.logo img,
+.logo p {
+}
+.logo img {
+    
+}
+.logo p {
+    padding-top: 14px;
+    margin-left: 20px;
+    color: #091156;
+    font-family: Poppins;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 2.4px;
+}
+.header ul {
+    position: relative;
+    padding-top: 20px;
+    width: 40rem;
     list-style: none;
-    text-align: center;
     justify-content: space-between;
-    align-items: center;
-
 }
 nav li {
+    height: 52px;
+    width: 100%;
     text-align: center;
-    display: inline-block;
-    justify-content: space-between;
+    display: inline;
+    padding-right: 35px;
+    color: #8B8B8B;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: 1.6px;
 }
-.logo {
-    width: 30rem;
-    background-color: blue;
-    float: left;
-}
-.navbar {
-    background-color: orange;
-    width: 40rem;
-    float: right;
-}
-/* ============================================ */
-.main {
-    display: flexbox;
-    width: 80rem;
-    background-color: green;
+.home {
+    color: #414880;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: 1.6px;
 }
 
+.navbar {
+    float: right;
+}
+.navbar .contact {
+    
+    padding: 5px 30px;
+    background-color: pink;
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: 1.6px;
+    width: 158px;
+    height: 52px;
+    flex-shrink: 0;
+    border-radius: 50px;
+    background: #FF64AE;
+}
+/* ================== MAINAS========================== */
+.main {
+    display: flexbox;
+    width: 70rem;
+    
+}
 .pastraipos {
     height: 10rem;
 }
-
 .kaire {
     float: left;
-    width: 20rem;
+    width: 30rem;
 }
-
+.kaire p {
+    color: #FF64AE;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 125%;
+}
+.kaire h2 {
+    color: #091156;
+    font-family: Poppins;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 45px;
+}
 .desine {
     width: 20rem;
-    float:right
+    float:right;
+}
+.desine {
+    width: 407px;
+    height: 72px;
+    flex-shrink: 0;
+    color: #8B8B8B;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 1.6px;
 }
 .pastraipos-apacia {
     height: 50rem;
 }
-
 .paveikslas {
-    
     width: 20rem;
     float: left;
 }
-
-.forma {
+.paveikslas img{
+    width: 25rem;
+    margin: 5rem 0 0 5rem;
+}
+/* ===================FORMA======================== */
+.form {
     height: 40rem;
-    width: 40rem;
+    width: 30rem;
     float: right;
+}
+form input {
+    width: 100%;
+    border-radius: 15px;
+    border: 1px solid #D9DDFE;
+    background: #FFF;
+    height: 61.579px;
+    flex-shrink: 0;
+    margin: 2rem 2rem 2rem -2rem;
+}
+.nameSurname {
+    display: flex;
+    margin-bottom: -2rem;
+}
+form .nameSide {
+    
+    width: 13.5rem;
+    display: inline;
+}
+form .surnameSide {
+    margin-left: 1rem;
+    width: 13.5rem;
+    display: inline;
+}
+form textarea {
+    margin: 2rem 2rem 2rem -2rem;
+    width: 100%;
+    height: 239.474px;
+    flex-shrink: 0;
+    border-radius: 15px;
+    border: 1px solid #D9DDFE;
+    background: #FFF;
+    resize: none;
+}
+::placeholder {
+    padding-left: 2rem;
+    width: auto;
+    height: 28px;
+    flex-shrink: 0;
+    color: #C5C5C5;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 1.6px;
+}
+textarea::placeholder {
+    padding-top: 1rem;
+}
+
+form button {
+    width: 248px;
+    height: 58px;
+    flex-shrink: 0;
+    border-radius: 50px;
+    background: #FF64AE;
+    box-shadow: 0px 17px 22px 0px #FFEDF6;
+    color: #FFF;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: 1.6px;
+    border: none;
+    margin: 3rem 0 0 -2rem;
+}
+
+.svg1 {
+    position: absolute;
+    left: -80px;
+    top: 500px;
+    z-index: -1;
+}
+.svg2{
+    position: absolute;
+    left: 105px;
+    top: 450px;
+    z-index: -1;
+    
+
 }
