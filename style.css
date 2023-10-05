@@ -1,0 +1,178 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container { 
+    width: 94.5rem;
+    height: 61.375rem; 
+    background: #F2F9FF; 
+    display: flex;
+}
+
+/* ====================== LEFT ================== */
+.blueSide {
+    width: 32.75rem;
+    margin-left: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.logo p {
+    padding-left: 2.5rem;
+    padding-top: 2.19rem;
+    color: #000;
+    font-family: Roboto;
+    font-size: 1.5rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal; 
+}
+.blueSideFooter {
+    display: flex;
+    justify-items: flex-end;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 2.12rem;
+    
+}
+.blueSideFooter li{
+
+    display: inline;
+    color: #000;
+    font-family: Roboto;
+    font-size: 1.125rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: -0.05625rem; 
+    
+    
+}
+/* =====================RIGHT==================== */
+.mainSide {
+    width: 61.75rem;
+    height: 61.375rem;
+    flex-shrink: 0; 
+    border-radius: 3.125rem;
+    background: #FFF; 
+    margin-right: 0;
+}
+.topNavSide{
+    margin-left: 3.19rem;
+    margin-top: 2.75rem;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.topNavSide li {
+    padding-right: 3.12rem;
+    text-transform: uppercase;
+    display: inline;
+    color: #000;
+    font-family: Roboto;
+    font-size: 1.25rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal; 
+}
+
+/* ==========BURGER============== */
+.burgerSide {
+    padding-right: 2.5rem;
+    margin-top: -0.44rem;
+    
+    flex-direction: row;
+    display: flex;
+}
+.burgerSide .cart {
+    align-items:center;
+    display: flex;
+    flex-direction: row;
+    height: 2.5625rem;
+    width: 7.4375rem; 
+    border-radius: 0.3125rem 0.9375rem 0.9375rem 0.9375rem;
+    background: #2B2B2B; 
+}
+.burgerSide .cart .cartCart {
+    display: flex;
+    padding-left: 1rem;
+    color: #FFF;
+    font-family: Roboto;
+    font-size: 1.25rem;
+    font-style: normal; 
+    font-weight: 700;
+    line-height: normal; 
+}
+.burgerSide .cart .number {
+    margin-left: 0.94rem;
+    margin-right: 0.25rem;
+    justify-content: center;
+    align-items:center;
+    display: flex;
+    border-radius: 50%;
+    color: #FFF;
+    width: 2.0625rem;
+    height: 2.0625rem; 
+    background-color: #525252;
+    font-family: Roboto;
+    font-size: 1.25rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal; 
+}
+.burgerSide .burger {
+    margin-left: 1.5rem;
+    border-radius: 0.3125rem 0.9375rem 0.9375rem 0.9375rem;
+    background: #43C7FF; 
+    width: 2.5625rem;
+    height: 2.5625rem;
+    flex-shrink: 0; 
+}
+
+.burgerSide .burger img{
+    padding-left: 0.45rem ;
+    padding-top: 0.37rem ;
+    width: 1.75rem;
+    height: 1.75rem;
+    flex-shrink: 0; 
+}
+/* ==================FOTO============= */
+figure {
+    position: absolute;
+    margin-top: 12.31rem;
+    margin-right:  52.12rem;
+    width: 35.3125rem;
+    height: 41rem;
+}
+/* ==================TEXT========== */
+.textBox{
+    display: flex;
+}
+
+section .text h1{
+    color: #000;
+    font-family: Roboto;
+    font-size: 4.0625rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: -0.20313rem; 
+}
+section .text p{
+    color: #969696;
+    font-family: Roboto;
+    font-size: 1.25rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal; 
+}
+section .text h3{
+    color: #000;
+    font-family: Roboto;
+    font-size: 1.875rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal; 
+}
+
